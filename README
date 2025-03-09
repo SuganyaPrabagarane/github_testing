@@ -2,7 +2,11 @@
 2. Create repository in github
 3. Connect both repositories
 4. Create README flie and push to remote repository
-   Do some changes in local repository
-   Try to push into github
-   Getting merge conflict error message
 5. Make change in remote repository and save
+6. Do some changes in local repository
+7. Try to push into github
+8. Getting merge conflict error message
+9. Give git pull origin master command will get the hint message
+10. Give git config pull.rebase false command to get the merge options with actual data and conflict data.
+11. Choose the changes which want to retain.
+12.
