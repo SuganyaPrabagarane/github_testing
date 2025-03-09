@@ -1,4 +1,4 @@
-# Steps to resolve Merge Conflict error message:
+### Steps to resolve Merge Conflict error message:
 
 - Created local repository
 - Created repository in github
@@ -11,7 +11,7 @@
 - Gave **git pull origin master** command and got the **hint** message to resolve the merge conflict
 - Gave **git config pull.rebase false** command (mentioned in hint message)
 - And got the merge options with actual data and conflicted data (which modified in remote repository).
-- Selected the data which i want to retain.
+- Selected the data that i want to retain.
 - And gave **git add & git commit** commands again to update the new changes.
 - Then tried to push into github with **git push origin master** command.
 - Now its pushed into remote repository successfully.
