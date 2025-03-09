@@ -1,12 +1,17 @@
-1. Create local repository
-2. Create repository in github
-3. Connect both repositories
-4. Create README flie and push to remote repository
-5. Make change in remote repository and save
-6. Do some changes in local repository
-7. Try to push into github
-8. Getting merge conflict error message
-9. Give git pull origin master command will get the hint message
-10. Give git config pull.rebase false command to get the merge options with actual data and conflict data.
-11. Choose the changes which want to retain.
-12.
+# Steps to resolve Merge Conflict error message:
+
+- Created local repository
+- Created repository in github
+- Connected both repositories
+- Created README flie and pushed to remote repository
+- Made changes in remote repository and saved it in github
+- Did some changes in local repository
+- Tried to push into github
+- Got **merge conflict** error message
+- Gave **git pull origin master** command and got the **hint** message to resolve the merge conflict
+- Gave **git config pull.rebase false** command (mentioned in hint message)
+- And got the merge options with actual data and conflicted data (which modified in remote repository).
+- Selected the data which i want to retain.
+- And gave **git add & git commit** commands again to update the new changes.
+- Then tried to push into github with **git push origin master** command.
+- Now its pushed into remote repository successfully.
