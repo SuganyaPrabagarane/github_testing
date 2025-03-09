@@ -1,3 +1,7 @@
 1. Create local repository
 2. Create repository in github
 3. Connect both repositories
+4. Create README flie and push to remote repository
+   Do some changes in local repository
+   Try to push into github
+   Getting merge conflict error message
